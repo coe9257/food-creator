@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+    height: 5rem;
+}
+
+header > h1 {
+    color: rgb(226, 215, 215);
+}
+
+.food-selection-container {
+    height: 15rem;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.buttons {
+    height: 5rem;
+    width: 7rem;
+    border: 1px solid white;
+    margin: .5rem 1rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.foodList {
+    height: 15rem;
+    border-bottom: 1px solid white;
+    scroll-behavior: auto;
+}
+
+.CICO-output {
+    height: 5rem;
+    border-bottom: 1px solid white;
+}
